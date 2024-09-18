@@ -10,7 +10,7 @@ public class Student {
     List<Course> enrolledCourses = new ArrayList<>(  );
 
 
-    public Student( String name, String id ) {
+    public Student(String name, String id) {
         this.name = name;
         this.id = id;
     } // Student
@@ -19,7 +19,7 @@ public class Student {
         return name;
     } // getName
 
-    public void setName( String name ) {
+    public void setName(String name) {
         this.name = name;
     } // setName
 
@@ -27,7 +27,7 @@ public class Student {
         return id;
     } // getId
 
-    public void setId( String id ) {
+    public void setId(String id) {
         this.id = id;
     } // setId
 
@@ -53,7 +53,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + "name='" + name + '\'' + ", id='" + id + '\'' + ", enrolledCourses=" + enrolledCourses
+        return "Student: {" + "Name='" + name + '\'' + ", id='" + id + '\'' + ", Enrolled Courses= " + enrolledCourses
             + '}';
     } // toString
 } // clas Student
